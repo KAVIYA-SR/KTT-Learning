@@ -1,22 +1,42 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CSS @charset Rule</title>
-    <style>
-        h1 {
-        	color: green;
-        }
-    </style>
-</head>
-<body>
-    <center>
-        <h1>Charset Rule</h1>
-
-        <p>Learn</p>
-        <p>Contribute</p>
-        <p>Explore</p>
-    <center>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS</title>
+        <style>
+            body{
+                display: flex;
+                flex-direction: column;
+                background-image: url("https://img.freepik.com/free-photo/dark-abstract-texture_1017-5788.jpg?w=740&t=st=1704715567~exp=1704716167~hmac=c02868dd352179afc8c1c7c731c6c7a96a3d55edaa8398c6d6563454b22c7943");
+                background-repeat: no-repeat;
+                background-position: cover;
+                background-size: 100vw;
+                color:azure;
+                align-items: center;
+            }
+            .clip{
+                background-color: green;
+                background-clip:border-box;
+                text-align:center;
+                border:10px dashed azure;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <center> -->
+            <h1>Charset Rule</h1>
+            <p>Learn</p>
+            <p>Contribute</p>
+            <p>Explore</p>
+        <!-- <center> -->
+        <div class="clip">
+            <h2>
+                GeeksforGeeks
+            </h2>
+            <p>
+                background-clip: border-box;
+            </p>
+        </div>
+    </body>
 </html>
