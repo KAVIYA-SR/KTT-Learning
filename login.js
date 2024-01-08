@@ -75,7 +75,7 @@ submit.addEventListener('click',()=>{
     }
     else{
         msg1.style.color="red";
-        msg1.innerHTML="please enter an email id";
+        msg1.innerHTML="please enter a valid email id";
         setTimeout(() =>{
             msg1.innerHTML="";
             email.innerHTML="";
