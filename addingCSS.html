@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="addingCSS.css">
+    <style>
+        .Internal{
+            color: white;
+            background-color: rgb(88, 88, 88);
+            font-size: 1.3rem;
+            width: 50%;
+            margin: 10px;
+        }
+        .d2{
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Adding CSS to HTML</h1>
+    <p>There are thre types of CSS</p>
+    <ul>
+        <li>inline</li>
+        <li>internal</li>
+        <li>external</li>
+    </ul>
+    <dl>
+        <dt style="color:white;background-color: rgb(88, 88, 88);font-size: 1.3rem;width: 50%;margin: 10px;">Inline</dt>
+        <dd style="margin-bottom:10px;font-size:1rem;">It contains the css property within the "style" attribute of the relavent element <br>
+            An inline style may be used to apply a unique style for a single element.
+        </dd>
+        <dt class="Internal">Internal</dt>
+        <dd class="d2">The css properties should be within the HTML file in the head section <br>
+            An internal style sheet may be used if one single HTML page has a unique style.
+        </dd>
+        <dt id="external">External</dt>
+        <dd id="d3">With an external style sheet, you can change the look of an entire website by changing just one file. <br>
+            Each HTML page must include a reference to the external style sheet file inside the &ltlink&gt element, inside the head section.
+        </dd>
+    </dl>
+</body>
+</html>
