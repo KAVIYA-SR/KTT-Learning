@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Scope,Variables,Conditions</h1>
+    <script>
+        var global="Global";
+        function myFunction(){
+            var local="Local";
+            console.log("Inside method : ",global, local);
+        }
+        myFunction();
+        // console.log("outside method :",global, local);//it shows the error local variable is not accessible outside function
+
+        let num = 0;
+        if (num > 0 || num < 0 ) {
+            console.log("The number is not a Zero");
+        }
+        else {
+            console.log("The number is zero");
+        }
+        let n=5;
+        let result= n%2==0 ?"It is an even number":"It is an odd number";
+        console.log(result);
+
+    </script>
+</body>
+</html>
