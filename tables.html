@@ -4,25 +4,662 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div{
+            width: 50%;
+            overflow-x: auto;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        table{
+            max-width: 50vw;
+            min-width: 50vw;
+            max-height: 50vw;
+        }
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Tables</h1>
+    <div>
     <table>
         <tr>
             <th> name </th>
             <th> year </th>
             <th> dep  </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
+            <th> marks </th>
         </tr>
         <tr>
             <td>kaviya </td>
             <td>4</td>
-            <td>cse</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
         </tr>
         <tr>
             <td>deva</td>
             <td>4</td>
-            <td>cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
         </tr>
+         <tr>
+            <td>kaviya </td>
+            <td>4</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+        <tr>
+            <td>deva</td>
+            <td>4</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+         <tr>
+            <td>kaviya </td>
+            <td>4</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+        <tr>
+            <td>deva</td>
+            <td>4</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+         <tr>
+            <td>kaviya </td>
+            <td>4</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+        <tr>
+            <td>deva</td>
+            <td>4</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+         <tr>
+            <td>kaviya </td>
+            <td>4</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+        <tr>
+            <td>deva</td>
+            <td>4</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+         <tr>
+            <td>kaviya </td>
+            <td>4</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+        <tr>
+            <td>deva</td>
+            <td>4</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+         <tr>
+            <td>kaviya </td>
+            <td>4</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+        <tr>
+            <td>deva</td>
+            <td>4</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+         <tr>
+            <td>kaviya </td>
+            <td>4</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+        <tr>
+            <td>deva</td>
+            <td>4</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+         <tr>
+            <td>kaviya </td>
+            <td>4</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+        <tr>
+            <td>deva</td>
+            <td>4</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+         <tr>
+            <td>kaviya </td>
+            <td>4</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+        <tr>
+            <td>deva</td>
+            <td>4</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+         <tr>
+            <td>kaviya </td>
+            <td>4</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+        <tr>
+            <td>deva</td>
+            <td>4</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+         <tr>
+            <td>kaviya </td>
+            <td>4</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+        <tr>
+            <td>deva</td>
+            <td>4</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+         <tr>
+            <td>kaviya </td>
+            <td>4</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+        <tr>
+            <td>deva</td>
+            <td>4</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+         <tr>
+            <td>kaviya </td>
+            <td>4</td>
+            <td rowspan="2">cse</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+        <tr>
+            <td>deva</td>
+            <td>4</td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+            <td> 80 </td>
+        </tr>
+    
     </table>
+    </div>
 </body>
 </html>

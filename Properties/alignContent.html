@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlignContent</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1{
+            color: #048271;
+        }
+        .flex-stretch{
+            display: flex; 
+            /* flex-direction: column; */
+            height: 400px; 
+            width:400px;
+            flex-wrap: wrap; 
+            align-content: stretch; 
+            background-color: green; 
+        }
+        .flex-between {
+            display: flex; 
+            height: 400px; 
+            width:400px;   
+            flex-wrap: wrap; 
+            align-content: space-between; 
+            background-color: green;
+        }
+
+        .flex-center {
+            display: flex; 
+            height: 400px; 
+            width:400px; 
+            flex-wrap: wrap; 
+            align-content: center; 
+            background-color: green;
+        }
+        .flex-around {
+            display: flex; 
+            height: 400px; 
+            width:400px; 
+            flex-wrap: wrap; 
+            align-content: space-around; 
+            background-color: green;
+        }
+        .flex-start {
+            display: flex; 
+            height: 400px; 
+            width:400px;
+            flex-wrap: wrap; 
+            align-content: flex-start; 
+            background-color: green;
+        }
+        .flex-end {
+            display: flex; 
+            height: 400px; 
+            width:400px; 
+            flex-wrap: wrap; 
+            align-content: flex-end; 
+            background-color: green;
+        }
+        .flex-item {
+            background-color: #f4f4f4; 
+            width: 100px; 
+            margin: 10px; 
+            text-align: center; 
+            font-size: 50px; 
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>AlignContent</h1>
+    <h2>align-content:space-between</h2>
+    <div class="flex-between">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+    </div>
+    <hr>
+    <h2>align-content:center</h2>
+    <div class="flex-center">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+    </div>
+    <hr>
+    <h2>align-content:stretch</h2>
+    <div class="flex-stretch">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+    </div>
+    <hr>
+    <h2>align-content:space-around</h2>
+    <div class="flex-around">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+    </div>
+    <hr>
+    <h2>align-content:flex-start</h2>
+    <div class="flex-start">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+    </div>
+    <h2>align-content:flex-end</h2>
+    <div class="flex-end">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+    </div>
+</body>
+</html>
