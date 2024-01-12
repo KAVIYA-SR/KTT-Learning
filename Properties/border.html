@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100vw;
+            height: 100%;
+            font-size: 1.3rem;
+        }
+        h1{
+            color: #048271;
+        }
+        .border{
+            padding: 25px;
+            border: 2px solid black;
+        }
+        .dash{
+            /* padding: 20px; */
+            border-bottom: 5px dashed black;
+        }
+        .dot{
+            /* padding:20px; */
+            border-bottom: 5px dotted black;
+        }
+        .style{
+            border-bottom-style:solid;
+            border-bottom-color:green;
+            border-bottom-width:5px;
+        }
+        .style2{
+            border-style:solid;
+            border-bottom-color:green;
+            border-bottom-width:thn;
+        }
+        .medium {
+            border-color: green;
+            border-bottom-style: solid;
+            border-bottom-width: medium;
+        }
+ 
+        .thick {
+            border-color: green;
+            border-bottom-style: solid;
+            border-bottom-width: thick;
+        }
+        #borderimg1 {
+            border: 15px solid transparent;
+            padding: 15px;
+            border-image-source: url('https://media.geeksforgeeks.org/wp-content/uploads/border2-2.png');
+            border-image-slice:  50 ;
+            border-image-repeat:  round;
+        }
+        #borderimg2 {
+            border: 15px solid transparent;
+            padding: 15px;
+            border-image-source: url('https://media.geeksforgeeks.org/wp-content/uploads/border2-2.png');
+            border-image-slice: 40% ;
+            border-image-repeat:  stretch;
+        }
+        #borderimg3 {
+            border: 15px solid transparent;
+            padding: 15px;
+            border-image: url('https://media.geeksforgeeks.org/wp-content/uploads/border2-2.png') 70 round;
+        }
+        table,
+        th,
+        td {
+            border: 2px solid green;
+            text-align: center;
+        }
+         
+        #geeks {
+            border-collapse: separate;
+            background-color: none;
+            border-spacing: initial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Border Properties</h1>
+    <h2>Borders</h2>
+    <div class="border">
+        Borders
+    </div>
+    <h2>Border Bottom</h2>
+    <div class="bottom-style">
+        <p class="dash">
+            border-bottom:2px dashed black;
+        </p>
+        <p class="dot">
+            border-bottom:2px dotted black;
+        </p>
+    </div>
+    <h2>border bottom styles</h2>
+    <div class="bottom-color">
+        <p class="style">
+            border-bottom-style:solid;<br>
+            border-bottom-color:green;<br>
+            border-bottom-width:5px;
+        </p>
+        <p class="style2">
+            border-style:solid;<br>
+            border-bottom-color:green;<br>
+            border-bottom-width:thin;
+        </p>
+        <p class="medium">
+            border-color: green;<br>
+            border-bottom-style: solid;<br>
+            border-bottom-width: medium;
+        </p>
+        <p class="thick">
+            border-color: green;<br>
+            border-bottom-style: solid;<br>
+            border-bottom-width: thick;
+        </p>
+    </div>
+    <h2>border-image property</h2>
+    <div>
+        <p id="borderimg1">BORDER 1</p>
+        <p id="borderimg2">BORDER 2</p>
+        <p id="borderimg3">BORDER 3</p>
+    </div>
+    <h2> The border-spacing Property</h2>
+    <div>
+        <table style="width:70%" id="geeks">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Harsh</td>
+                <td>Agarwal</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Manas</td>
+                <td>Chhabra</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Ramesh</td>
+                <td>Chandra</td>
+                <td>28</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

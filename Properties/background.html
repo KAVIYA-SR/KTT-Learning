@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Properties</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100vw;
+            height: 100%;
+        }
+        h1{
+            color: #048271;
+        }
+        .color{
+            width: 80%;
+            height: 30px;
+            display: flex;
+            align-items: center;   
+            justify-content: center;        
+            background-color: violet;
+        }
+        .color2{
+            width: 80%;
+            height: 30px;
+            display: flex;
+            align-items: center;   
+            justify-content: center;        
+            background-color: blueviolet;
+        }
+        .image{
+            font-size: 1.3rem;
+            width: 30vw;
+            height: 30vh;
+            display: flex;
+            align-items: center;   
+            justify-content: center;       
+            background-image: url('https://images.pexels.com/photos/96627/pexels-photo-96627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+        }
+        .image2{
+            font-size: 1.3rem;
+            width: 30vw;
+            height: 30vh;
+            display: flex;
+            align-items: center;   
+            justify-content: center;       
+            background-image: url('https://images.pexels.com/photos/96627/pexels-photo-96627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') none;
+        }
+        .image3{
+            font-size: 1.3rem;
+            width: 30vw;
+            height: 30vh;
+            display: flex;
+            align-items: center;   
+            justify-content: center;       
+            background-image: url('https://images.pexels.com/photos/96627/pexels-photo-96627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') initial;
+        }
+        .image4{
+            font-size: 1.3rem;
+            width: 30vw;
+            height: 30vh;
+            display: flex;
+            align-items: center;   
+            justify-content: center;       
+            background-image: url('https://images.pexels.com/photos/96627/pexels-photo-96627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') inherit;
+        }
+        .clip{
+            font-size: 1.3rem;
+            background-color: #048271;
+            border: 10px dashed black;
+            padding: 25px;
+            background-clip: border-box;
+        }
+        .clip2{
+            font-size: 1.3rem;
+            background-color: #048271;
+            border: 10px dashed black;
+            padding: 25px;
+            background-clip: content-box;
+        }
+        .clip3{
+            font-size: 1.3rem;
+            background-color: #048271;
+            border: 10px dashed black;
+            padding: 25px;
+            background-clip: padding-box;
+        }
+        .position{
+            width: 350px;
+            height: 350px;
+            background-color: gray;
+            background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/background-position1.png');
+            /* background-attachment: fixed; */
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .position2{
+            width: 350px;
+            height: 350px;
+            background-color: gray;
+            background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/background-position1.png');
+            background-repeat: no-repeat;
+            background-position: left top;
+        }
+        .position3{
+            width: 350px;
+            height: 350px;
+            background-color: gray;
+            background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/background-position1.png');
+            background-repeat: no-repeat;
+            background-position: left center;
+        }
+        .position4{
+            width: 350px;
+            height: 350px;
+            background-color: gray;
+            background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/background-position1.png');
+            background-repeat: no-repeat;
+            background-position: left bottom;
+        }
+        .position5{
+            width: 350px;
+            height: 350px;
+            background-color: gray;
+            background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/background-position1.png');
+            background-repeat: no-repeat;
+            background-position: right top;
+        }
+        .position6{
+            width: 350px;
+            height: 350px;
+            background-color: gray;
+            background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/background-position1.png');
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
+        .position7{
+            width: 350px;
+            height: 350px;
+            background-color: gray;
+            background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/background-position1.png');
+            background-repeat: no-repeat;
+            background-position: right bottom;
+        }
+    </style>
+</head>
+<body>
+    <h1>Background Properties</h1>
+    <h2>Background Color</h2>
+    <div class="color">
+        background-color:violet;
+    </div>
+    <hr>
+    <div class="color2">
+        background-color:bluevoilet;
+    </div>
+    <h2>Background Image</h2>
+    <div class="image">
+        background-image : url();
+    </div>
+    <hr>
+    <div class="image2">
+        background-image : url() none;
+    </div>
+    <h2>Background Clip</h2>
+    <div class="clip">
+        Background-clip : border - box;
+    </div><hr>
+    <div class="clip2">
+        Background-clip : content- box;
+    </div><hr>
+    <div class="clip3">
+        Background-clip : padding-box;
+    </div>
+    <h2>Background Position</h2>
+    <h4>background-position : center</h4>
+    <div class="position">
+        
+    </div>
+    <h4>background-position : left top</h4>
+    <div class="position2">
+        
+    </div>
+    <h4>background-position : left center</h4>
+    <div class="position3">
+        
+    </div>
+    <h4>background-position : left bottom</h4>
+    <div class="position4">
+        
+    </div>
+    <h4>background-position : right top</h4>
+    <div class="position5">
+        
+    </div>
+    <h4>background-position : right center</h4>
+    <div class="position6">
+        
+    </div>
+    <h4>background-position : right bottom</h4>
+    <div class="position7">
+        
+    </div>
+</body>
+</html>
