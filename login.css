@@ -24,7 +24,7 @@ h1{
     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
 }
 input{
-    margin: 7px;
+    margin: 7px 0px;
     padding: 7px;
     width: 70%;
     border-radius: 5px;
@@ -42,7 +42,9 @@ input{
     width: 75%;
 }
 #icon{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin:10px 0 0 43%;
     font-size: 30px;
     /* border: 2px solid black; */
